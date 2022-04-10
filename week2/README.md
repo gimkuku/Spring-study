@@ -13,7 +13,7 @@
 
 ##### SWS 테이블 생성 코드
 
-```
+```sql
 
 use efub;
 create table sws(
@@ -36,7 +36,7 @@ create table member(
 
 ##### JOIN 코드
 
-```
+```sql
 select
 sws.name as team, member.name as name, member.position, member.email
 from
